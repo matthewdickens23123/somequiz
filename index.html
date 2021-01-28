@@ -10,8 +10,13 @@
 
 <body>
     <div class="intro py-3 bg-white text-center">
-        <div class="container">
+        <div clsass="container">
             <h2 class="text-primary display-3 my-4">Some Quiz</h2>
+        </div>
+        <div class="result py-4 d-none bg-light text-center">
+            <div class="conatainer lead">
+                <p>You got<span class="text-primary display-4 p-3">0%</span>right</p>
+            </div>
         </div>
     </div>
     <div class="quiz py-4 bg-primary">
@@ -39,10 +44,6 @@
                         <input type="radio" name="q2" value="B">
                         <label class="form-check-label">No</label>
                     </div>
-                    <div class="form-check my-2 text-white-50">
-                        <input type="radio" name="q2" value="C">
-                        <label class="form-check-label">Only one at a time</label>
-                    </div>
                     <div class="my-5">
                         <p class="lead font-weight-normal">3. Do you have a pink toothbrush</p>
                         <div class="form-check my-2 text-white-50">
@@ -51,10 +52,6 @@
                         </div>
                         <div class="form-check my-2 text-white-50">
                             <input type="radio" name="q3" value="B">
-                            <label class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check my-2 text-white-50">
-                            <input type="radio" name="q3" value="C">
                             <label class="form-check-label">Yes</label>
                         </div>
                     </div>
@@ -66,17 +63,13 @@
                         </div>
                         <div class="form-check my-2 text-white-50">
                             <input type="radio" name="q4" value="B">
-                            <label class="form-check-label">13</label>
-                        </div>
-                        <div class="form-check my-2 text-white-50">
-                            <input type="radio" name="q4" value="C">
                             <label class="form-check-label">3V3N</label>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
                     <input type="submit" class="btn btn-light">
-                </div> 
+                </div>
             </form>
         </div>
     </div>
